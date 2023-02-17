@@ -1,7 +1,18 @@
 import React from "react";
+import Sidebar from "../components/Sidebar";
+import Chat from "../components/Chat";
+import Login from "./Login";
 
-function Home() {
-  return <div>Home</div>;
-}
+const Home = () => {
+  return (
+    <div className="home">
+      <div className="container">
+        <Sidebar />
+        <Chat />
+        {/* <Login /> */}
+      </div>
+    </div>
+  );
+};
 
 export default Home;

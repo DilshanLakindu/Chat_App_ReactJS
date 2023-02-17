@@ -1,5 +1,5 @@
 import React from "react";
-import Add from "./../img/img.png";
+import AddImg from "./../img/AddImg.png";
 const Register = () => {
   return (
     <div className="formContainer">
@@ -12,7 +12,7 @@ const Register = () => {
           <input type="password" placeholder="Password" />
           <input style={{ display: "none" }} type="file" id="file" />
           <label htmlFor="file">
-            <img src={Add} alt="" />
+            <img src={AddImg} alt="" />
             <span>Add an avatar</span>
           </label>
           <button>Sign Up</button>
